@@ -1,7 +1,7 @@
 [project]
 name = "database-migration-project"
 version = "0.1.0"
-description = "Мигратор схемы и данных из MySQL в PostgreSQL"
+description = "Мигратор из MySQL в PostgreSQL"
 authors = [
     { name = "Pavel", email = "PavelDidko@gmail.com" }
 ]
@@ -11,5 +11,6 @@ requires-python = ">=3.8"
 dependencies = [
     "sqlalchemy>=2.0",
     "pymysql>=1.0",
-    "psycopg2-binary>=2.9"
+    "psycopg2-binary>=2.9",
+    "python-dotenv"
 ]

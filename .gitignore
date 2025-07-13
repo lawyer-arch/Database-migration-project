@@ -209,3 +209,4 @@ __marimo__/
 # Text file
 *.txt
 .venv/
+.env
